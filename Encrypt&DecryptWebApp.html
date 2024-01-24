@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Base64 Encoder/Decoder</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: #f5f5f5;
+        text-align: center;
+        margin: 50px;
+      }
+
+      input {
+        width: 300px;
+        padding: 10px;
+        margin: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+      }
+
+      button {
+        padding: 10px;
+        margin: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        border-radius: 5px;
+      }
+
+      #encryptBtn {
+        background-color: #4caf50;
+        color: #fff;
+      }
+
+      #decryptBtn {
+        background-color: #2196f3;
+        color: #fff;
+      }
+
+      #clearBtn {
+        background-color: #ff5722;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      var encodedString;
+
+      function encrypt() {
+        var baseString = document.getElementById("en").value;
+        encodedString = window.btoa(baseString);
+        document.getElementById("de").value = encodedString;
+      }
+
+      function decrypt() {
+        var decodedString = window.atob(encodedString);
+        document.getElementById("de").value = decodedString;
+      }
+
+      function clearFields() {
+        document.getElementById("en").value = "";
+        document.getElementById("de").value = "";
+      }
+
+      function allClear() {
+        document.getElementById("en").value = "";
+        document.getElementById("de").value = "";
+      }
+    </script>
+
+    <input type="text" id="en" placeholder="Enter text to encode" /><br />
+    <input type="text" id="de" placeholder="Decoded/Encoded result" /><br />
+    <button id="encryptBtn" onclick="encrypt()">Encode</button>
+    <button id="decryptBtn" onclick="decrypt()">Decode</button>
+    <button id="clearBtn" onclick="allClear()">All Clear</button>
+  </body>
+</html>
