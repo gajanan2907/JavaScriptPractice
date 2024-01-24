@@ -16,7 +16,7 @@
 // Naming Practice
 // var _myName = "Gajanan";
 // var 1myName = "Choudhary";
-// var _1my__Name = "bahadur";
+// var _1my__Name = "Veer";
 // var $myName = "Apana Knowledge";
 // var myNaem% = "Apana Knowledge";
 
@@ -212,8 +212,8 @@
 // var myName = "Gajanan";
 
 // console.log(myName + " Choudhary");
-// console.log(myName + " bahadur");
-// console.log(myName + " bahadur Choudhary");
+// console.log(myName + " Veer");
+// console.log(myName + " Veer Choudhary");
 
 // 😳 4 Challenge Time
 // What will be the output of 3**3?
@@ -834,7 +834,7 @@
 // to an element, or -1 if none is found. It search the element from the
 // 0th index number
 
-// var myFriendNames = ["Gajanan","bahadur","Choudhary","Choudharytechnical","Choudhary"];
+// var myFriendNames = ["Gajanan","Veer","Choudhary","Choudharytechnical","Choudhary"];
 
 // console.log(myFriendNames.indexOf("Choudhary", 3));
 
@@ -842,7 +842,7 @@
 // Returns the last (greatest) index of an element within the array equal
 // to an element, or -1 if none is found. It search the element last to first
 
-// var myFriendNames = ["Gajanan","bahadur","Choudhary","Choudharytechnical","Choudhary"];
+// var myFriendNames = ["Gajanan","Veer","Choudhary","Choudharytechnical","Choudhary"];
 
 // console.log(myFriendNames.lastIndexOf("Choudhary",3));
 
@@ -850,7 +850,7 @@
 // Determines whether the array contains a value,
 // returning true or false as appropriate.
 
-// var myFriendNames = ["Gajanan","bahadur","Choudhary","Choudharytechnical"];
+// var myFriendNames = ["Gajanan","Veer","Choudhary","Choudharytechnical"];
 
 // console.log(myFriendNames.includes("Choudhary"));
 
