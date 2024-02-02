@@ -73,7 +73,7 @@
 // In other words, it is a variable in global scope.
 // The initial value of NaN is Not-A-Number
 
-// var myPhoneNumber = 9876543210;
+// var myPhoneNumber = 9878323311;
 // var myName = "Apana Knowledge";
 
 // console.log(isNaN(myPhoneNumber));
@@ -509,6 +509,9 @@
 //   var total = a+b;
 //   console.log(total);
 // }
+
+// let d = new Date();
+// console.log(d.toLocaleString());
 
 // var funExp = sum(5,15);
 
